@@ -1,0 +1,19 @@
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.theme-light{
+    --bg-soft: #f6f2f4;
+    --bg: #ffffff;
+    --shadow: 0 0 8px rgba(0,0,0,.4);
+    --text-color: #000;
+}
+
+.theme-dark{
+    --bg-soft: #2c2c2c;
+    --bg: #000;
+    --shadow: 0 0 8px rgba(255, 255, 255, 0.4);
+    --text-color: #fff;
+}
